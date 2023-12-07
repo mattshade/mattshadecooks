@@ -2,12 +2,16 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Barlow', sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
-    Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Barlow', sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-weight: 400;
 }
 
 * {
   box-sizing: border-box;
+}
+
+h4 {
+  font-weight: 500;
 }
 
 main {
