@@ -61,7 +61,7 @@ export default function onionSoup() {
           Add stock, thyme, and bay leaves and bring to a boil. Reduce heat to medium-low and simmer, skimming occasionally, until flavors meld, about 1 hour. Season with salt and pepper.
           </p>
           <p>
-            While it's tempting to want to eat the oinion soup in that same day it's made, it's best to let it sit overnight in the fridge and reheat the next day. This allows the flavors to meld and the flavors to mature. It seems like the optimal flavor potential is reached after 3 days in the fridge.
+            While it's tempting to want to eat the onion soup in that same day it's made, it's best to let it sit overnight in the fridge and reheat the next day. This allows the flavors to meld and the flavors to mature. It seems like the optimal flavor potential is reached after 3 days in the fridge.
           </p>
           <h4 className="description">
             FOR THE CROUTON(S)
