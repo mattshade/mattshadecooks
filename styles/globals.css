@@ -11,8 +11,11 @@ body {
 }
 
 a {
-  color: magenta;
+  color: lightgrey;
   text-decoration: none;
+  background: grey;
+  border-radius: 5px;
+  padding: 0.2rem;
 }
 
 h4 {
@@ -86,6 +89,31 @@ li {
   max-width: 900px;
   line-height: 1.8rem;
   padding: 20px;
+}
+
+.navi {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  position: absolute;
+  bottom: 20px;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+}
+
+.navi li {
+  padding-right: 20px;
+  background-color: grey;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  -webkit-flex: 1 auto;
+  flex: 1 auto;
+  padding: 0.5rem;
+  text-align: center;
 }
 
 @media (max-width: 768px) {

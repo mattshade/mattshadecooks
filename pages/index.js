@@ -20,6 +20,11 @@ export default function Home() {
         <p className="description">
           MATT SHADE COOKS
         </p>
+        <ul className="navi">
+          <li><a href="/onion-soup">onion soup</a></li>
+          <li><a href="/philly-cheesesteak">philly cheesesteak</a></li>
+          <li><a href="/fettucine-alfredo">fettucine alfredo</a></li>
+        </ul>
       </main>
 
       {/* <Footer /> */}
