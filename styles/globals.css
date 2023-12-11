@@ -10,6 +10,11 @@ body {
   box-sizing: border-box;
 }
 
+a {
+  color: magenta;
+  text-decoration: none;
+}
+
 h4 {
   font-weight: 500;
 }
