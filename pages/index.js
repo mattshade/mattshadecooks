@@ -1,6 +1,5 @@
 import Head from 'next/head'
-// import Header from '@components/Header'
-// import Footer from '@components/Footer'
+import Navi from '@components/Navi'
 import styles from '../components/Footer.module.css'
 
 export default function Home() {
@@ -13,6 +12,7 @@ export default function Home() {
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet" />
       </Head>
+      <Navi />
 
       <main className="mainContainer">
         {/* <Header title="Welcome to my app!" /> */}
@@ -20,11 +20,6 @@ export default function Home() {
         <p className="description">
           MATT SHADE COOKS
         </p>
-        <ul className="navi">
-          <li><a href="/onion-soup">onion soup</a></li>
-          <li><a href="/philly-cheesesteak">philly cheesesteak</a></li>
-          <li><a href="/fettucine-alfredo">fettucine alfredo</a></li>
-        </ul>
       </main>
 
       {/* <Footer /> */}

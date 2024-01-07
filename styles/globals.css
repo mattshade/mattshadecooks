@@ -11,11 +11,9 @@ body {
 }
 
 a {
-  color: lightgrey;
+  color: #6D9F71;
   text-decoration: none;
-  background: grey;
-  border-radius: 5px;
-  padding: 0.2rem;
+  cursor: pointer;
 }
 
 h4 {

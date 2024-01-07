@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
 import Hero from '@components/Hero'
+import Navi from '@components/Navi'
 
 export default function onionSoup() {
   return (
@@ -13,6 +14,7 @@ export default function onionSoup() {
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet" />
       </Head>
+      <Navi />
       <Hero hero={"/fettucine-alfredo-cropped.jpg"} width={1200} height={600} />
       <main>
         <Header title="FETTUCINE ALFREDO" />

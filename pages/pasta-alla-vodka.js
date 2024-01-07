@@ -15,43 +15,41 @@ export default function onionSoup() {
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet" />
       </Head>
       <Navi />
-      <Hero hero={"/o-soup-crock-cropped.jpg"} width={1200} height={600} />
+      <Hero hero={"/pasta-alla-vodka-cropped.jpg"} width={1200} height={600} />
       <main>
-        <Header title="FRENCH ONION SOUP" />
+        <Header title="PASTA ALLA VODKA" />
         <p className="author">
           Matt Shade, Home Cook
         </p>
         <div className="intro">
           <p>
-            During my time as a bartender at Girard's Bistro in Franklin, MA, I stumbled upon the most unforgettable French Onion Soup. Made with fresh homemade veal stock, it rivaled even one that I savored in Paris, France. The first taste, during a rushed and lunchless shift, sparked a mission to indulge in as many bowls as possible and seek out the finest onion soup worldwide. While a close recipe has been found, the elusive secrets of chef Jeff Girard remain uncharted territory. The pursuit of the perfect onion soup continues, echoing the flavorful memories of French Onion Soup Gratinée from what once was Girard's Bistro run by Jeff and Kathleen Girard.
+            I love pasta with vodka sauce. I've tried many recipes and this one is my favorite. It's a little more involved than some of the other recipes I've tried, but it's worth it. It seems like it would go more quickly but takes just over an hour to make. Let's get into it!
           </p>
         </div>
         <div className="row">
           
         <div className="column1">
           <h4 className="description">
-            SERVES 8
+            SERVES 6
           </h4>
           <ul>
-            <li>8 tablespoons(1stick) unsalted butter</li>
-            <li>1 tablespoon peanut oil </li>
-            <li>3ish pounds mixed onions, sliced 1/8 inch thick</li>
-            <li>Kosher salt and freshly ground black pepper to taste, divided</li>
-            <li>1 cup Harvey's Bristol Cream Sherry or another sherry such as Amontillado</li>
-            <li>2 quarts homemade or store-bought(Swanson's or Rachael Ray's) veal or beef stock</li>
-            <li>6 sprigs thyme(tied with kitchen twine)</li>
-            <li>2 bay leaves</li>
-            <li>8 bowl-size slices rustic bread or 3 per bowl slices of a smaller baguette, toasted until crisp</li>
-            <li>1 pound Gruyère cheese, grated</li>
-            <li>if using a small baguette 1/4 pound Swiss cheese, sliced</li>
+            <li>3 tablespoons unsalted butter</li>
+            <li>1/2 quart heavy cream</li>
+            <li>14oz can peeled whole san marzano tomatoes</li>
+            <li>6oz tomato paste</li>
+            <li>50ml vodka</li>
+            <li>7oz parmigiano reggiano grated</li>
+            <li>1 medium sized onion</li>
+            <li>4 cloves garlic</li>
+            <li>1lb pasta</li>
           </ul>
         </div>
         <div className="column2">
         <h4 className="description">
-            FOR THE ONIONS
+            FOR THE SAUCE
           </h4>
           <p>
-            In a large Dutch oven or heavy-bottomed pot, melt butter and oil over medium heat. Add onions, season with salt and pepper, and cook, stirring occasionally, until onions are soft and caramelized, about 1 hour. 
+            In a 3-4 quart saucepan, melt butter over medium heat. Add onion, garlic, a big pinch of salt and cook, stirring occasionally, until soft, but not carmelized, about 10 minutes. Turn heat down if any burning or carmelization starts to happen. Add the tomato paste and cook until fragrant, about 3 minutes. Add tomatoes and their juices and cook, stirring occasionally, press the tomatoes until all are crushed, about 10 minutes. Add cream and simmer until slightly reduced, about 10 minutes more. Remove from heat and stir in cheese. Season with salt and pepper. 
           </p>
           <h4 className="description">
             POST ONION CARMELIZATION
